@@ -33,6 +33,7 @@ header {
   padding: 2em 1.5em;
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 
 .imgLeft {
@@ -431,6 +432,7 @@ section p {
     border-radius: 10px;
     background-color: lightgray;
     opacity: 0.9;
+    z-index: 2;
   }
   .plus i {
     position: absolute;
@@ -450,6 +452,7 @@ section p {
     border-radius: 10px;
     background-color: lightgray;
     opacity: 0.9;
+    z-index: 2;
   }
   .calendar i {
     position: absolute;
@@ -518,6 +521,16 @@ aside div p:last-child {
   margin-bottom: 0;
   font-size: 0.8em;
   text-align: right;
+}
+.card {
+  position: relative;
+}
+.card p:first-of-type i {
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  font-size: 60px;
+  color: #cdcdcd;
 }
 
 /* FOOTER */

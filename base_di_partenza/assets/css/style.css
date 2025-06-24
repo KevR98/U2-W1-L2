@@ -92,50 +92,49 @@ header {
 @media screen and (min-width: 1200px) {
   header {
     text-align: left;
-  }
 
-  .plus {
-    position: fixed;
-    top: 30px;
-    right: 0;
-    border: 5px solid whitesmoke;
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-    background-color: lightgray;
-    opacity: 0.9;
-  }
-  .plus i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-  }
+    .plus {
+      position: fixed;
+      top: 30px;
+      right: 0;
+      border: 5px solid whitesmoke;
+      height: 50px;
+      width: 50px;
+      border-radius: 10px;
+      background-color: lightgray;
+      opacity: 0.9;
+    }
+    .plus i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+    }
 
-  .calendar {
-    position: fixed;
-    top: 100px;
-    right: 0;
-    border: 5px solid whitesmoke;
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-    background-color: lightgray;
-    opacity: 0.9;
-  }
-  .calendar i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 24px;
-  }
+    .calendar {
+      position: fixed;
+      top: 100px;
+      right: 0;
+      border: 5px solid whitesmoke;
+      height: 50px;
+      width: 50px;
+      border-radius: 10px;
+      background-color: lightgray;
+      opacity: 0.9;
+    }
+    .calendar i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+    }
 
-  .imgLeft {
-    float: left;
+    .imgLeft {
+      float: left;
+    }
   }
-
   header .brand,
   header nav,
   header .brand p {
